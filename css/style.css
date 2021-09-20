@@ -1,0 +1,120 @@
+/* &display=swap'&subset=cyrillic-ext */
+
+@import url("https://fonts.googleapis.com/css?family=Mukta:regular,700&display=swap&subset=cyrillic-ext");
+
+@font-face {
+	font-family: "Cony";
+	src: url("../fonts/Cony.woff2") format("woff2"), url("../fonts/Cony.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Cony";
+	src: url("../fonts/Cony-Bold.woff2") format("woff2"), url("../fonts/Cony-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html {
+	font-size: 16px;
+}
+body {
+	font-family: "Mukta", sans-serif;
+}
+h1 {
+	font-family: "Cony", sans-serif;
+	font-weight: 700;
+	text-align: center;
+	font-size: 30px;
+	text-decoration: overline underline;
+}
+
+span.name {
+	text-transform: uppercase;
+}
+.center {
+	font-family: "Mukta", sans-serif;
+	font-size: 25px;
+	font-weight: 700;
+	color: rgba(165, 42, 42, 0.459);
+	text-align: center;
+	line-height: 130%;
+}
+.description {
+	font-family: "Cony", sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	color: black;
+}
+
+.navigation a {
+	font-family: "Cony", sans-serif;
+	font-weight: 700;
+	text-decoration: underline;
+	text-transform: uppercase;
+	line-height: 200%;
+}
+.text {
+	font-family: "Mukta", sans-serif;
+	color: rgba(32, 153, 113, 0.74);
+	text-align: right;
+}
+.center .street {
+	color: rgb(43, 226, 58);
+	letter-spacing: 10px;
+	text-shadow: 1px 1px 1px #000;
+}
+.second {
+	font-family: "Cony", sans-serif;
+	color: rgba(0, 0, 255, 0.315);
+}
+.red {
+	color: red;
+	text-indent: 5%;
+	text-align: justify;
+	text-decoration: line-through;
+	text-shadow: -2px -2px #27242367;
+}
+.last {
+	font-style: oblique;
+	text-transform: capitalize;
+	word-spacing: 10px;
+}
+
+a {
+	font-size: 25px;
+	font-weight: 700;
+	text-decoration: line-through;
+}
